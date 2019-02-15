@@ -124,7 +124,7 @@ function loadDataInList(IId) {
 ** checks for open list and checks for selected IId
 ** 
 **/
-function jsInit() {
+function initTool() {
     var iWinId = top.objRightContainer.getSelectedWinID(); 	// get windows ID for right hand side tab
     var oWin = null;
 
@@ -136,7 +136,7 @@ function jsInit() {
             forceText: true,
             type: 'error'
         });
-        jsCloseTool();
+        closeTool();
         return;
     }
 
@@ -156,11 +156,11 @@ function jsInit() {
             forceText: true,
             type: 'error'
         });
-        jsCloseTool();
+        closeTool();
         return;
     }
 }
 
-function jsCloseTool() {
+function closeTool() {
     top.closePopupWin();
 }
