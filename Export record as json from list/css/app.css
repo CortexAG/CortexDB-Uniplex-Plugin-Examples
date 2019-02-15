@@ -1,0 +1,81 @@
+body {
+    font-family: "Helvetice-Neue", Helvetice, Arial;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pluginHeader {
+    background-color: #ededed;
+    padding: 10px 0px 10px 10px;
+    top 0px;
+    margin: 0px 0px 0 0px;
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+}
+
+.pluginContent {
+    padding: 10px 10px 10px 10px;
+}
+
+.pluginFooter {
+    background-color: #ededed;
+    padding: 10px 0px 10px 0px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+}
+
+.footer_element {
+	padding: 0px 10px 0px 10px;
+}
+
+.footer_left {
+	float: left;
+}
+
+.footer_right {
+	padding-top: 5px;
+}
+
+#error_text {
+    color: red;
+}
+
+button {
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+
+select {
+  border: 1px solid #dedede;
+  padding:.75em 1em .5em 1em;
+  background-color:#ededed;
+  color:black;
+}
+
+option {
+  background:#ededed;
+  border-top:0px;
+  padding:.3em 1em .3em 1em;
+}
+
+
+.icon {}
+
+.icon-close {}

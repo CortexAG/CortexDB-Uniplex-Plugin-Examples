@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+
+<head>
+    <title>export-example</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="expires" content="0" />
+    <meta name="content-Language" content="de" />
+    <link rel="stylesheet" href="css/app.css" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body id="ID_Body" onLoad="jsInit()">
+
+    <!-- Kopfzeile -->
+    <div class="pluginHeader">
+        <span>Export-Example</span>
+        <span icon icon-close></span>
+    </div>
+
+    <!-- Inhalt -->
+    <div class="pluginContent">
+        <form action="select.html">
+			<label>Listen: <select id="listSelect" name="top5" size="1"></select>
+			</label>
+			<a id="downloadAnchorElem" style="display:none"></a>
+			 <button type="button" onClick="loadDataInList()">Export</button>
+        </form>
+        
+    </div>
+    
+    <!-- Fußzeile -->
+    <div class="pluginFooter">
+        <div class="footer_element footer_left"><button onClick="jsCloseTool()">schließen</button></div><div class="footer_element footer_right"><div id="error_text"></div>
+    </div>
+
+</body>
+
+</html>
