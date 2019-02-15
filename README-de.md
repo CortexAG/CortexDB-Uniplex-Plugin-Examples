@@ -18,7 +18,7 @@ Plugin-Entwicklung
 - **plugin.js** - legt fest, wie das Plugin im Uniplex dargestellt wird (als Popup, in einer Bildschirmhälfte oder nur als Funktion ohne Fenster) und wo es abgelegt wurde (DB-intern oder im ww-Verzeichnis)
 
 
-###Parameter der `config.ini`
+### Parameter der `config.ini`
 
 ```ini
 [global]
@@ -31,7 +31,7 @@ Der `Name` legt den Pfad innerhalb der Uniplex-Struktur und den Namen des Plugin
 Die Version dient zur Unterscheidung verschiedener Versionen und kann frei definiert werden.
 
 
-###Parameter der `plugin.ini`
+### Parameter der `plugin.ini`
 
 ```
 [global]
@@ -48,7 +48,7 @@ title="TooltipForPluging"		; Tooltip des Icons
 action=CtxJsPluginManager.callPluginFunction,show
 ```
 
-###Inhalt der `plugin.js`
+### Inhalt der `plugin.js`
 
 
 ```JavaScript
