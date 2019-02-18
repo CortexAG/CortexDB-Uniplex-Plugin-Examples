@@ -5,6 +5,13 @@ CortexDB Uniplex-Plugins Beispiele
 
 - - -
 
+Voraussetzungen
+---------------
+
+Mindestens UniplexDataservice (UniplexAPI) 4.0.040
+
+Beschreibung
+------------
 Dieses Repository dient zur Sammlung von Beispielen der Plugin-Entwicklung für den CortexDB Uniplex. 
 
 ![Plugin-Schema](images/Plugin-Config-Schema.png)
